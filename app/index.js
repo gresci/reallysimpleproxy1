@@ -13,8 +13,6 @@ const PORT = 3002;
 const HOST = "0.0.0.0";
 const HOST_SERVICE_URL = process.env.HOST_SERVICE_URL || 'http://192.168.70.12:8080';
 const API_KEY = process.env.API_KEY || '';
-const username = process.env.EM_USERNAME || '';
-const password = process.env.EM_PASSWORD || '';
 
 // Logging
 app.use(morgan('dev'));
